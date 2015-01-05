@@ -86,7 +86,7 @@ INFO[0000] bank ACME has 5028840.53 total deposits in 100 accounts
 
 ## Swagger
 
-[Here](webplay/blob/master/public/swagger.yaml) is the swagger 2.0 spec for this toy app.  If you serve from the httprouter ```webplay serve httprouter``` you can access the UI through localhost:8000/api/ however if you host through goji it can be access through localhost:8000/.  (The difference is due to the way that the two solutions manage routes)
+[Here](public/swagger.yaml) is the swagger 2.0 spec for this toy app.  If you serve from the httprouter ```webplay serve httprouter``` you can access the UI through localhost:8000/api/ however if you host through goji it can be access through localhost:8000/.  (The difference is due to the way that the two solutions manage routes)
 
 ## Notes, observations, next steps 
 * live reload for go web servers can be achieved using [gin](https://github.com/codegangsta/gin)
